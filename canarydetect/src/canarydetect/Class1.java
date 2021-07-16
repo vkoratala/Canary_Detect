@@ -19,7 +19,7 @@ public class Class1 {
 		vk.findElement(By.xpath("//body/div[@id='siteWrapper']/main[@id='page']/article[@id='sections']/section[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/fieldset[1]/div[1]/label[1]/input[1]")).sendKeys("Vishnu");
 		vk.findElement(By.xpath("//body/div[@id='siteWrapper']/main[@id='page']/article[@id='sections']/section[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/fieldset[1]/div[2]/label[1]/input[1]")).sendKeys("Koratala");
 		vk.findElement(By.xpath("//body[1]/div[1]/main[1]/article[1]/section[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/input[1]")).sendKeys("vkoratala@gmail.com");
-		vk.findElement(By.xpath("//body[1]/div[1]/main[1]/article[1]/section[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/input[1]")).sendKeys("Test");
+		vk.findElement(By.xpath("//body[1]/div[1]/main[1]/article[1]/section[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/input[1]")).sendKeys("Test1");
 		vk.findElement(By.xpath("//body[1]/div[1]/main[1]/article[1]/section[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/textarea[1]")).sendKeys("test");
 		JavascriptExecutor js = (JavascriptExecutor) vk;
 		js.executeScript("window.scrollBy(697,745)", "");
